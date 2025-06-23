@@ -1,0 +1,7 @@
+{
+  "images_directory": ["example_data"],
+  "fixed_thresh": 0.04,
+  "blockDiam": 101,
+  "dust_correction": "True"
+}
+

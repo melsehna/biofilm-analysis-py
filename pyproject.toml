@@ -1,0 +1,19 @@
+[project]
+name = "biofilmAnalysis"
+version = "0.1.0"
+description = "Python reimplementation of the Julia biofilm analysis pipeline."
+authors = [{ name = "Seh Na Mellick", email = "sehna@cmu.edu" }]
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scikit-image",
+    "tifffile"
+]
+
+[tool.uv]
+# uv-specific settings can go here if needed
+
